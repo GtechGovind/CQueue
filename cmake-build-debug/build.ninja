@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-bu
 
 build cmake_object_order_depends_target_CQueue: phony || .
 
-build CMakeFiles/CQueue.dir/library.cpp.obj: CXX_COMPILER__CQueue_unscanned_Debug C$:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/library.cpp || cmake_object_order_depends_target_CQueue
-  DEP_FILE = CMakeFiles\CQueue.dir\library.cpp.obj.d
+build CMakeFiles/CQueue.dir/src/circular_queue.cpp.obj: CXX_COMPILER__CQueue_unscanned_Debug C$:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/src/circular_queue.cpp || cmake_object_order_depends_target_CQueue
+  DEP_FILE = CMakeFiles\CQueue.dir\src\circular_queue.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CQueue.dir
-  OBJECT_FILE_DIR = CMakeFiles\CQueue.dir
+  OBJECT_FILE_DIR = CMakeFiles\CQueue.dir\src
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/CQueue.dir/library.cpp.obj: CXX_COMPILER__CQueue_unscanned_Debu
 #############################################
 # Link the static library libCQueue.a
 
-build libCQueue.a: CXX_STATIC_LIBRARY_LINKER__CQueue_Debug CMakeFiles/CQueue.dir/library.cpp.obj
+build libCQueue.a: CXX_STATIC_LIBRARY_LINKER__CQueue_Debug CMakeFiles/CQueue.dir/src/circular_queue.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\CQueue.dir
   POST_BUILD = cd .

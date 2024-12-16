@@ -3,4 +3,4 @@ project(CQueue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(CQueue STATIC library.cpp)
+add_library(CQueue STATIC src/circular_queue.cpp)
