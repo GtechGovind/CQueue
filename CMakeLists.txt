@@ -3,9 +3,8 @@ project(CQueue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(
-        CQueue STATIC
+# Header-only library
+add_library(CQueue INTERFACE)
 
-        src/circular_queue.cpp
-        src/circular_queue.hpp
-)
+# Specify the header files for the interface library
+target_include_directories(CQueue INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/src)

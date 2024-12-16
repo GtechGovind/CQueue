@@ -40,37 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug/
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target CQueue
-
-
-#############################################
-# Order-only phony target for CQueue
-
-build cmake_object_order_depends_target_CQueue: phony || .
-
-build CMakeFiles/CQueue.dir/src/circular_queue.cpp.obj: CXX_COMPILER__CQueue_unscanned_Debug C$:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/src/circular_queue.cpp || cmake_object_order_depends_target_CQueue
-  DEP_FILE = CMakeFiles\CQueue.dir\src\circular_queue.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\CQueue.dir
-  OBJECT_FILE_DIR = CMakeFiles\CQueue.dir\src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target CQueue
-
-
-#############################################
-# Link the static library libCQueue.a
-
-build libCQueue.a: CXX_STATIC_LIBRARY_LINKER__CQueue_Debug CMakeFiles/CQueue.dir/src/circular_queue.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\CQueue.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = libCQueue.a
-  TARGET_PDB = CQueue.a.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -97,8 +66,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CQueue: phony libCQueue.a
-
 # =============================================================================
 # Folder targets.
 
@@ -107,7 +74,7 @@ build CQueue: phony libCQueue.a
 #############################################
 # Folder: C:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug
 
-build all: phony libCQueue.a
+build all: phony
 
 # =============================================================================
 # Built-in targets
