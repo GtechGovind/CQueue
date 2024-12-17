@@ -1,2 +1,0 @@
-C:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,6 @@
-"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\gtech\Desktop\Projects\NEW_FINAL\CQueue -B C:\Users\gtech\Desktop\Projects\NEW_FINAL\CQueue\cmake-build-debug
--- Configuring done (0.2s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/opt/feig/cvend-sdk/bin/arm-feig-linux-gnueabi-gcc -DCMAKE_CXX_COMPILER=/opt/feig/cvend-sdk/bin/arm-feig-linux-gnueabi-g++ -G "Unix Makefiles" -S /mnt/c/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue -B /mnt/c/Users/gtech/Desktop/Projects/NEW_FINAL/CQueue/cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.30 or higher is required.  You are running version 3.22.1
+
+
+-- Configuring incomplete, errors occurred!
